@@ -10,13 +10,13 @@ export const Footer = () => {
     <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
        
         <li>
-            <a href="https://www.facebook.com/Ray1S" target="_blank" className="mr-4 hover:underline md:mr-6">facebook</a>
+            <a href="https://www.facebook.com/Ray1S" target="_blank" rel="noreferrer" className="mr-4 hover:underline md:mr-6">facebook</a>
         </li>
         <li>
-            <a href="https://www.linkedin.com/in/ravish-sahota-66b974277/" target="_blank" className="mr-4 hover:underline md:mr-6">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/ravish-sahota-66b974277/" target="_blank" rel="noreferrer" className="mr-4 hover:underline md:mr-6">LinkedIn</a>
         </li>
         <li>
-            <a href="https://github.com/Raykt1" target="_blank" className="hover:underline">Github</a>
+            <a href="https://github.com/Raykt1" target="_blank" rel="noreferrer" className="hover:underline">Github</a>
         </li>
     </ul>
     </div>
