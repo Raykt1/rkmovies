@@ -1,0 +1,5 @@
+api key = ab06382213f8f0b84accffbb6d46097c
+
+https://api.themoviedb.org/3/movie/now_playing?api_key=ab06382213f8f0b84accffbb6d46097c
+
+https://image.tmdb.org/t/p/w500/
