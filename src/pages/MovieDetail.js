@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 export const MovieDetail = () => {
   const Params = useParams();
   const [datta, setDatta] = useState({});
+  //eslint-disable-next-line
   const movieImage = `https://image.tmdb.org/t/p/w500/${datta.poster_path}`;
 
   useEffect(() => {
@@ -14,7 +15,7 @@ export const MovieDetail = () => {
       setDatta(json);
     }
     fetchMovie();
-  }, []);
+  }, [Params.id]);
   return (
     <main>
       <section className="flex justify-around flex-wrap py-5">
